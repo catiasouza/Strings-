@@ -26,3 +26,25 @@ E nesta aula estamos treinando
 Strings."
 """
 print(novaMensagem)
+print()
+print("NUMEROS RANDOMICOS")
+print()
+
+//NUMERO RANDOMICO
+
+let numeroRandomico = Int(arc4random_uniform(100)) // FORMA ANTIGA
+print(numeroRandomico)
+let numRandomico = Int.random(in: 0..<50)         //ATUALIZADO
+print(numRandomico)
+print()
+
+//SORTEAR OBJETOS RANDOMICOS
+
+print("SORTEAR OBJETOS RANDOMICOS")
+print()
+let listaMusica = ["Guns N Roses", "Metallica","AC/DC","Sepultura","Rock"]
+print(listaMusica.randomElement())
+
+
+
+
